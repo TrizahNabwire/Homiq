@@ -18,7 +18,7 @@ Rely on local experts who know the area
 
 Avoid the stress of cold-calling landlords
 
-Whether you're moving across town or into a new city, Homiq helps you find homes smarter, faster, and with peace of mind. We’ve built a network of dedicated field agents who do the searching — so you don’t have to.
+Whether you're moving across town or into a new city, Homiq helps you find homes smarter, faster, and with peace of mind. We’ve built a network of dedicated field agents who do the searching - so you don’t have to.
 
 From one-bedroom apartments to spacious family homes, we bring the listings to life by guiding you through real house viewings. And if a house isn’t the right fit? No pressure. Book another. You’re always in control.
 
