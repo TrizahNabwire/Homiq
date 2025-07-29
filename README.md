@@ -1,25 +1,12 @@
-# Homiq
-Homiq connects renters to verified vacant houses. Our agents scout real homes, and you pay a small fee per viewing. No fake listings, no stress - just real houses, real fast.
+# React + Vite
 
-Homiq - Your Trusted House Viewing Agents
-Finding a vacant house to rent can be overwhelming. Scattered listings, fake posts, unresponsive landlords - the search is time-consuming and often leads nowhere. That’s where Homiq comes in.
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Homiq is a house-viewing service powered by real agents who actively search for and verify vacant rental properties. We walk the streets, talk to caretakers, visit neighborhoods, and confirm available homes before they’re even listed online. As a result, you get access to real, up-to-date vacant homes - fast.
+Currently, two official plugins are available:
 
-With Homiq, you only pay when you want to view a house. Our fee is per house, making the process affordable, transparent, and flexible. There are no subscriptions, hidden charges, or commitments. Just pay to view, and decide at your own pace.
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-We serve renters who want to:
+## Expanding the ESLint configuration
 
-Skip the noise and fake listings
-
-Save time by viewing ready-to-rent houses
-
-Rely on local experts who know the area
-
-Avoid the stress of cold-calling landlords
-
-Whether you're moving across town or into a new city, Homiq helps you find homes smarter, faster, and with peace of mind. We’ve built a network of dedicated field agents who do the searching - so you don’t have to.
-
-From one-bedroom apartments to spacious family homes, we bring the listings to life by guiding you through real house viewings. And if a house isn’t the right fit? No pressure. Book another. You’re always in control.
-
-Homiq is house hunting made human, simple, and real.
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
