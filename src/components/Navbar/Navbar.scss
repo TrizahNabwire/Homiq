@@ -16,17 +16,22 @@ nav{
             height: 100px;
             border-radius: 50%;
         }
+        @include xs {
+            img{
+                width: 42px;
+                height: 42px;
+            }
+        }
+        @include sm {
+            img{
+                width: 60px;
+                height: 60px;
+            }
+        }
     }
 
     a{
         transition: 0.3s;
-
-        @include xs {
-            display: none;
-        }
-        @include sm {
-            display: none;
-        }
 
         &:hover{
             text-decoration: underline;
@@ -40,6 +45,13 @@ nav{
         align-items: center;
         gap: 20px;
         color: #f0ead6;
+
+        @include xs {
+            display: none;
+        }
+        @include sm {
+            display: none;
+        }
     }
     .nav-right{
         // flex: 1;
@@ -66,6 +78,13 @@ nav{
             text-decoration: underline;
             transform: scale(1.05);
         }
+
+        @include xs {
+            display: none;
+        }
+        @include sm {
+            display: none;
+        }
     }
     .register{
         background-color: #f0ead6;
@@ -83,6 +102,12 @@ nav{
             box-shadow: #f0ead6 0px 0px 8px;
             transform: scale(1.05);
         }
+        @include xs {
+            display: none;
+        }
+        @include sm {
+            display: none;
+        }
     }
 
     .menu-icon{
@@ -96,8 +121,8 @@ nav{
         }
 
         img{
-            width: 32px;
-            height: 32px;
+            width: 42px;
+            height: 42px;
             cursor: pointer;
         }
     }
@@ -108,41 +133,37 @@ nav{
         background-color: #3a0303;
         color: #f0ead6;
         height: 100vh;
-        width: 40%;
+        width: 50%;
         transition: all 1s ease;
-        display: flex;
         flex-direction: column;
         align-items: center;
-        justify-content: center;
+        padding-top: 30%;
         gap: 20px;
         font-size: 24px;
         display: none;
+        
+        a {
+        color: #f0ead6;
+        text-decoration: none;
+        font-size: 20px;
+        padding: 10px 0;
+        width: 100%;
+        text-align: center;
+        transition: 0.3s ease;
+        }
 
         &.active{
             right: 0;
+            display: flex;
         }
 
         @include xs{
-            display: initial;
             align-items: center;
             color: #f0ead6;
         }
         @include sm{
-            display: initial;
             align-items: center;
             color: #f0ead6;
-        }
-        // @include md{
-        //     display: none;
-        // }
-        // @include lg{
-        //     display: none;
-        // }
-        // @include xl{
-        //     display: none;
-        // }
-        // @include xxl{
-        //     display: none;
-        // }
+        } 
     }
 }

@@ -2,6 +2,7 @@ import React from 'react'
 import './Navbar.scss'
 import logo1 from '../../assets/Logo1.png'
 import menu_icon from '../../assets/menu_icon.png'
+import close_icon from '../../assets/close_icon.png'
 
 const Navbar = () => {
     const [isOpen, setIsOpen] = React.useState(false);
@@ -22,9 +23,12 @@ const Navbar = () => {
                 <button className='signin'>Sign In</button>
                 <button className='register'>Sign Up</button>
                 <div className="menu-icon">
-                    <img src={menu_icon} alt="" onClick={()=>setIsOpen((prev)=>!prev)}/>
+                    {/* Toggle Menu Icon */}
+                    <img src={isOpen ? close_icon: menu_icon} alt="Menu Icon" onClick={()=>setIsOpen((prev)=>!prev)}/>
                 </div>
-                <div className={setIsOpen ? 'menu active' : 'menu'}>
+
+                {/* Mobile Menu */}
+                <div className={`menu ${isOpen ? 'active' : ''}`}>
                 <a href="">Home</a>
                 <a href="">About Us</a>
                 <a href="">Houses</a>
