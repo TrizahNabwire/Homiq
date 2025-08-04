@@ -1,0 +1,29 @@
+.homePage{
+    display: flex;
+    flex-direction: column;
+
+    .textContainer{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        font-size: 72px;
+        font-weight: bolder;
+        margin-bottom: 80px;
+        padding-top: 80px;
+        color: #f0ead6;
+    }
+
+    .imgContainer{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        img{
+            width: 90%;
+            height: auto;
+            border-radius: 16px;
+            border: 6px solid #f0ead6;
+            // box-shadow: 0 4px 8px #f0ead6;
+        }
+    }
+}

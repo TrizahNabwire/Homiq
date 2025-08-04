@@ -8,6 +8,8 @@
     // margin-right: auto;
     padding-left: 100px;
     padding-right: 100px;
+    display: flex;
+    flex-direction: column;
 
     @include xs {
         background-color: rgb(45, 209, 45);
@@ -27,4 +29,9 @@
     @include xxl {
         background-color: rgb(209, 45, 45);;
     }
+
+
+    // .content{
+    //     flex: 1;
+    // }
 }
