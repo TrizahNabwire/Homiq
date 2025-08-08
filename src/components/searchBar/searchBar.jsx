@@ -20,7 +20,7 @@ const searchBar = () => {
     <div className='searchBar'>
       <div className="category">
         {category.map((category)=>(
-          <button key={category} onClick={()=> switchCategory(category)} className={query.category === category ? "active" : ""}></button>
+          <button key={category} onClick={()=> switchCategory(category)} className={query.category === category ? "active" : ""}>{category}</button>
         ))}
       </div>
       <form action="">
