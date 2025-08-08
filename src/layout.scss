@@ -13,12 +13,18 @@
 
     @include xs {
         background-color: rgb(45, 209, 45);
+        padding-left: 32px;
+        padding-right: 32px;
     }
     @include sm {
-        background-color: rgb(86, 6, 161);   
+        background-color: rgb(86, 6, 161);
+        padding-left: 60px;
+        padding-right: 60px;   
     }
     @include md {
         background-color: rgb(212, 12, 126);
+        padding-left: 80px;
+        padding-right: 80px;
     }
     @include lg {
         background-color: #c5a5a5;

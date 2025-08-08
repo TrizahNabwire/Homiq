@@ -1,5 +1,13 @@
+@import '../../responsive.scss';
+
 .searchBar{
     .category{
+        @include xs{
+            margin-bottom: 4px;
+        }
+        @include sm{
+            margin-bottom: 6px;
+        }
         button{
             padding: 16px 32px;
             border: 1px solid #f0ead6;
@@ -17,11 +25,19 @@
             &:first-child{
                 border-top-left-radius: 8px;
                 border-right: none;
+
+                @include xs{
+                    border-bottom: 1px solid #f0ead6;
+                }
+                @include sm{
+                    border-bottom: 1px solid #f0ead6;
+                }
             }
             &:last-child{
                 border-top-right-radius: 8px;
                 border-left: none;
             }
+            
         }
     }
 
@@ -35,14 +51,25 @@
         // padding: 0 16px;
         justify-content: space-between;
         border: 2px solid #f0ead6;
-        gap: auto;
+        gap: 8px;
+
+        @include xs{
+            flex-direction: column;
+            height: auto;
+            border: none;
+        }
+        @include sm{
+            flex-direction: column;
+            height: auto;
+            border: none;
+        }
 
         input{
             width: 100%;
             height: 100%;
             background-color: transparent;
             border: none;
-            color: #f0ead6;
+            // color: #f0ead6;
             font-size: 16px;
             padding: 0px 12px;
 
@@ -54,6 +81,36 @@
                 color: #f0ead6;
                 opacity: 0.7;
             }
+
+            @include lg{
+                padding: 0px 4px;
+
+                &:nth-child(2),&:nth-child(3){
+                    width: 90%;
+                }
+            }
+
+            @include xs{
+                width: 100%;
+                padding: 12px 8px;
+                background-color: #f0ead6;
+
+                &::placeholder{
+                color: #3a0303;
+                opacity: 0.7;
+            }
+            }
+
+            @include sm{
+                width: 100%;
+                padding: 16px 8px;
+                background-color: #f0ead6;
+
+                &::placeholder{
+                    color: #3a0303;
+                    opacity: 0.7;
+                }
+            }
         }
 
         button{
@@ -62,7 +119,19 @@
             cursor: pointer;
             padding: 16px;
             height: 64px;
-            // flex: 1;
+            width: 100%;
+            flex: 1;
+
+            @include xs{
+                width: 100%;
+                height: auto;
+                padding: 12px 8px;
+            }
+            @include sm{
+                width: 100%;
+                height: auto;
+                padding: 16px 8px;
+            }
 
             .searchIcon{
                 width: 20px;
@@ -71,5 +140,4 @@
             }
         }
     }
-    
 }
