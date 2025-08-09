@@ -33,15 +33,36 @@
         display: flex;
         justify-content: space-between;
         color: #f0ead6;
+        padding-top: 32px;
+        padding-bottom: 50px;
+
+        @include xs{
+            align-items: center;
+            gap: 16px;
+        }
 
         h1{
             font-size: 36px;
             font-weight: bold;
             margin-bottom: 10px;
+
+            @include xs{
+                font-size: 24px;
+            }
+            @include sm{
+                font-size: 30px;
+            }
         }
         h2{
             font-size: 16px;
             font-weight: 200;
+
+            @include xs{
+                font-size: 12px;
+            }
+            @include sm{
+                font-size: 14px;
+            }
         }
 
         .stat{

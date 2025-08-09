@@ -2,12 +2,6 @@
 
 .searchBar{
     .category{
-        @include xs{
-            margin-bottom: 4px;
-        }
-        @include sm{
-            margin-bottom: 6px;
-        }
         button{
             padding: 16px 32px;
             border: 1px solid #f0ead6;
@@ -37,7 +31,6 @@
                 border-top-right-radius: 8px;
                 border-left: none;
             }
-            
         }
     }
 
@@ -51,7 +44,7 @@
         // padding: 0 16px;
         justify-content: space-between;
         border: 2px solid #f0ead6;
-        gap: 8px;
+        gap: 4px;
 
         @include xs{
             flex-direction: column;
@@ -93,10 +86,11 @@
             @include xs{
                 width: 100%;
                 padding: 12px 8px;
-                background-color: #f0ead6;
+                border: 1px solid #f0ead6;
+                // background-color: #f0ead6;
 
                 &::placeholder{
-                color: #3a0303;
+                color: #f0ead6;
                 opacity: 0.7;
             }
             }
@@ -104,10 +98,11 @@
             @include sm{
                 width: 100%;
                 padding: 16px 8px;
-                background-color: #f0ead6;
+                border: 1px solid #f0ead6;
+                // background-color: #f0ead6;
 
                 &::placeholder{
-                    color: #3a0303;
+                    color: #f0ead6;
                     opacity: 0.7;
                 }
             }
