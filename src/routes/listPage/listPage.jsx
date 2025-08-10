@@ -3,7 +3,9 @@ import './listPage.scss'
 
 const listPage = () => {
   return (
-    <div>listPage</div>
+    <div className='listPage'>
+      
+    </div>
   )
 }
 
