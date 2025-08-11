@@ -1,4 +1,4 @@
-const data = [
+export const listData = [
   {
     id: 1,
     location: 'Kinoo, Waiyaki Way',
