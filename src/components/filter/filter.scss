@@ -1,11 +1,13 @@
 .filter{
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: 16px;
+    padding-top: 42px;
 
     h1{
         font-size: 24px;
-        font-weight: 300;
+        font-weight: 500;
+        color: #f0ead6;
     }
 
     .item{
@@ -15,6 +17,7 @@
 
         label{
             font-size: 12px;
+            color: #f0ead6;
         }
 
         input,
@@ -36,7 +39,7 @@
     .bottom{
         display: flex;
         justify-content: space-between;
-        gap: 20px;
+        gap: 12px;
 
         button{
             width: 60px;

@@ -9,8 +9,13 @@
         justify-content: center;
 
 
-        // .wrapper{
-        //     padding-right: 50px;
-        // }
+        .wrapper{
+            // padding-right: 50px;
+            display: flex;
+            flex-direction: column;
+            gap: 16px;
+            gap: 50px;
+            overflow: scroll;
+        }
     }
 }
