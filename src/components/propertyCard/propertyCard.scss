@@ -21,11 +21,16 @@
         gap: 8px;
 
         .location{
-            font-size: 14px;
+            font-size: 16px;
             color: #f0edf0;
             font-weight: 600;
             display: flex;
             align-items: center;
+            transition: all 0.4s ease;
+
+            &:hover{
+                scale: 1.05;
+            }
 
             img{
                 width: 16px;
@@ -39,27 +44,55 @@
         }
 
         .price{
-            font-size: 16px;
-            font-weight: 500;
-            color: #e67e22;
+            font-size: 12px;
+            // font-weight: 500;
+            padding: 4px;
+            border-radius: 4px;
+            background-color: #e67e22;
+            color: #f0edf0;
+            width: max-content;
+
+            span{
+                font-size: 16px;
+                font-weight: 600;
+            }
         }
+
+        .bottom{
+            display: flex;
+            justify-content: space-between;
+            gap: 8px;
+            flex-direction: row;
 
         .features{
             display: flex;
-            align-items: center;
-            gap: 8px;
+            font-size: 14px;
+            gap: 120px;
+
+            .feature{
+                display: flex;
+                align-items: center;
+                gap: 4px;
+                background-color: #f0edf020;
+                font-weight: 500;
+                color: #f0edf0;
+                padding: 6px;
+                border-radius: 4px;
+            }
 
             img{
                 width: 16px;
                 height: 16px;
             }
         }
+        }
+     }
 
         .actions{
             display: flex;
             flex-direction: row;
             gap: 12px;
-        }
+        
         
         .action{
             border: 1px solid #f0edf0;
@@ -73,4 +106,4 @@
             }
         }
     }
-}
+    }

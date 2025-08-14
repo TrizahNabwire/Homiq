@@ -27,13 +27,19 @@ const PropertyCard = ({item}) => {
         <p className="price">
           <span>Ksh {item.price}</span> / month
         </p>
+        <div className="bottom">
         <div className="features">
+          <div className="feature">
           <img src={bed_icon} alt="" />
           <span className="bedrooms">{item.bedRooms} Bedrooms</span>
           </div>
-          <div className="features">
-          <img src={bathroom_icon} alt="" />
-          <span className="bathrooms">{item.bathRooms} Bathrooms</span>
+          </div>
+            <div className="features">
+              <div className="feature">
+              <img src={bathroom_icon} alt="" />
+              <span className="bathrooms">{item.bathRooms} Bathrooms</span>
+            </div>
+          </div>
           </div>
 
           <div className="actions">
