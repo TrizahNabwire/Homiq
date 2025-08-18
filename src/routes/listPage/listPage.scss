@@ -18,6 +18,16 @@
             gap: 50px;
             overflow: scroll;
             height: 100%;
+
+            .cards{
+                display: flex;
+                flex-wrap: wrap;
+                // flex-direction: row;
+                // grid-template-rows: 1fr 1fr 1fr;
+                // justify-content: center;
+                gap: 16px;
+                width: 100%;
+            }
         }
     }
 }
