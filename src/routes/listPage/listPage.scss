@@ -1,5 +1,6 @@
 .listPage{
     display: flex;
+    height: 100%;
 
 
     .listContainer{
@@ -30,4 +31,8 @@
             }
         }
     }
+    // .mapContainer{
+    //     flex: 2;
+    //     background-color: #fff;
+    // }
 }

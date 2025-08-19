@@ -18,7 +18,9 @@ const listPage = () => {
           </div>
         </div>
       </div>
-      
+      {/* <div className="mapContainer">
+        Map
+      </div> */}
     </div>
   )
 }

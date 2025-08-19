@@ -1,10 +1,11 @@
 .card{
     display: flex;
     gap: 20px;
+    flex-direction: column;
 
     .imageContainer{
-        width: 35%;
-        height: 230px;
+        width: 344px;
+        height: 250px;
         border-radius: 8px;
 
         img{
@@ -60,7 +61,7 @@
 
         .bottom{
             display: flex;
-            justify-content: space-between;
+            // justify-content: space-between;
             gap: 8px;
             flex-direction: row;
 
@@ -101,6 +102,7 @@
             display: flex;
             align-items: center;
             justify-content: center;
+            margin-bottom: 32px;
 
             img{
                 width: 16px;
