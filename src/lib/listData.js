@@ -15,7 +15,7 @@ export const listData = [
     price: 60000,
     bedRooms: 3,
     bathRooms: 2,
-    image: 'https://images.unsplash.com/photo-1560448075-bb4a1f5d1b4b?auto=format&fit=crop&w=800&q=60',
+    image: 'https://images.unsplash.com/photo-1590490359683-658d3d23f972?auto=format&fit=crop&w=800&q=60',
   },
   {
     id: 3,
@@ -24,7 +24,7 @@ export const listData = [
     price: 145000,
     bedRooms: 4,
     bathRooms: 3,
-    image: 'https://images.unsplash.com/photo-1628744879964-d8db36805b97?auto=format&fit=crop&w=800&q=60',
+    image: 'https://images.unsplash.com/photo-1590490359683-658d3d23f972?auto=format&fit=crop&w=800&q=60',
   },
   {
     id: 4,
@@ -42,7 +42,7 @@ export const listData = [
     price: 350000,
     bedRooms: 6,
     bathRooms: 5,
-    image: 'https://images.unsplash.com/photo-1613977257362-4ec49d3b8c53?auto=format&fit=crop&w=800&q=60',
+    image: 'https://images.unsplash.com/photo-1590490359683-658d3d23f972?auto=format&fit=crop&w=800&q=60',
   },
   {
     id: 6,
@@ -60,7 +60,7 @@ export const listData = [
     price: 22000,
     bedRooms: 1,
     bathRooms: 1,
-    image: 'https://images.unsplash.com/photo-1616627458516-3266c97d3dc5?auto=format&fit=crop&w=800&q=60',
+    image: 'https://images.unsplash.com/photo-1590490359683-658d3d23f972?auto=format&fit=crop&w=800&q=60',
   },
   {
     id: 8,
@@ -78,7 +78,7 @@ export const listData = [
     price: 16000,
     bedRooms: 2,
     bathRooms: 1,
-    image: 'https://images.unsplash.com/photo-1607523308850-2c8b1f3d4c5e?auto=format&fit=crop&w=800&q=60',
+    image: 'https://images.unsplash.com/photo-1590490359683-658d3d23f972?auto=format&fit=crop&w=800&q=60',
   },
   {
     id: 10,
@@ -87,7 +87,7 @@ export const listData = [
     price: 14000,
     bedRooms: 1,
     bathRooms: 1,
-    image: 'https://images.unsplash.com/photo-1600585154356-0c8f3d8a9272?auto=format&fit=crop&w=800&q=60',
+    image: 'https://images.unsplash.com/photo-1590490359683-658d3d23f972?auto=format&fit=crop&w=800&q=60',
   },
   {
     id: 11,
@@ -96,7 +96,7 @@ export const listData = [
     price: 17000,
     bedRooms: 2,
     bathRooms: 2,
-    image: 'https://images.unsplash.com/photo-1560448075-bb4a1f5d1b4b?auto=format&fit=crop&w=800&q=60',
+    image: 'https://images.unsplash.com/photo-1590490359683-658d3d23f972?auto=format&fit=crop&w=800&q=60',
   },
   {
     id: 12,
@@ -105,7 +105,7 @@ export const listData = [
     price: 12000,
     bedRooms: 2,
     bathRooms: 1,
-    image: 'https://images.unsplash.com/photo-1600585154356-0c8f3d8a9272?auto=format&fit=crop&w=800&q=60',
+    image: 'https://images.unsplash.com/photo-1590490359683-658d3d23f972?auto=format&fit=crop&w=800&q=60',
   },
   {
     id: 13,
@@ -123,7 +123,7 @@ export const listData = [
     price: 240000,
     bedRooms: 3,
     bathRooms: 3,
-    image: 'https://images.unsplash.com/photo-1613977257362-4ec49d3b8c53?auto=format&fit=crop&w=800&q=60',
+    image: 'https://images.unsplash.com/photo-1590490359683-658d3d23f972?auto=format&fit=crop&w=800&q=60',
   },
   {
     id: 15,
