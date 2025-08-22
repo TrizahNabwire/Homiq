@@ -18,9 +18,9 @@ const singlePage = () => {
                   <span>{singlePropertyData.location}</span>
                 </div>
                 <p className="distance">{singlePropertyData.distance}</p>
-              </div>
               <div className="price">
                 <span>Ksh {singlePropertyData.price}</span> / month
+              </div>
               </div>
               <div className="user">
                 <img src={userData.image} alt="" />
