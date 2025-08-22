@@ -6,7 +6,7 @@ export const listData = [
     price: 15000,
     bedRooms: 2,
     bathRooms: 1,
-    image: 'https://images.unsplash.com/photo-1590490359683-658d3d23f972?auto=format&fit=crop&w=800&q=60',
+    image: 'https://images.unsplash.com/photo-1590490359683-658d3d23f972?auto=format&fit=crop&w=800&q=60',     
   },
   {
     id: 2,
@@ -135,3 +135,31 @@ export const listData = [
     image: 'https://images.unsplash.com/photo-1590490359683-658d3d23f972?auto=format&fit=crop&w=800&q=60',
   },
 ];
+
+export const singlePropertyData =  {
+    id: 1,
+    location: 'Kinoo, Waiyaki Way',
+    distance: '2.5 km Walk from Sarit Centre',
+    price: 15000,
+    bedRooms: 2,
+    bathRooms: 1,
+    image: ['https://images.unsplash.com/photo-1590490359683-658d3d23f972?auto=format&fit=crop&w=800&q=60',
+            'https://images.unsplash.com/photo-1600585152220-90363fe7e115?auto=format&fit=crop&w=800&q=60',
+            'https://images.unsplash.com/photo-1613490493576-7fde63acd811?auto=format&fit=crop&w=800&q=60',
+            'https://images.unsplash.com/photo-1505691938895-1758d7feb511?auto=format&fit=crop&w=800&q=60',
+            'https://images.unsplash.com/photo-1590490359683-658d3d23f972?auto=format&fit=crop&w=800&q=60',
+            'https://images.unsplash.com/photo-1590490359683-658d3d23f972?auto=format&fit=crop&w=800&q=60',
+          ],
+    description: 'A beautiful 2-bedroom apartment located in Kinoo, just a short walk from Sarit Centre. The apartment features modern amenities, spacious living areas, and a serene environment perfect for relaxation.',
+    amenities: ['Free Wi-Fi', '24/7 Security', 'Swimming Pool', 'Gym', 'Parking Space', 'Pet Friendly'],
+    supermarket: '50m away',
+    city: 'Nairobi',
+    school: 'Nearby schools include St. Mary’s School and Kinoo Primary School.',
+    busStation: '200m away',
+  };
+
+  export const userData = {
+    id: 1,
+    name: 'John Doe',
+    image: 'https://images.unsplash.com/photo-1590490359683-658d3d23f972?auto=format&fit=crop&w=800&q=60',
+  };
