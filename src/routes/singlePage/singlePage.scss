@@ -15,7 +15,7 @@
                     .post{
                         display: flex;
                         flex-direction: column;
-                        gap: 20px;
+                        gap: 16px;
                         .location{
                             display: flex;
                              font-size: 16px;
@@ -35,7 +35,8 @@
                              }
                         }
                         .distance{
-
+                            font-size: 12px;
+                            color: #f0edf0;
                         }
                         .price{
                             font-size: 12px;
@@ -53,6 +54,16 @@
                         }
                     }
                     .user{
+                        display: flex;
+                        align-items: center;
+                        flex-direction: column;
+                        justify-content: center;
+                        gap: 8px;
+                        padding: 0px 24px;
+                        border-radius: 8px;
+                        color: #f0edf0;
+                        // font-weight: 600;
+                        background-color: #f0edf020;
                         img{
                             width: 50px;
                             height: 50px;
@@ -62,6 +73,10 @@
                     }
                 }
                 .bottom{
+                    margin-top: 32px;
+                    color: #f0edf0;
+                    line-height: 20px;
+                    font-size: 14px;
 
                 }
             }

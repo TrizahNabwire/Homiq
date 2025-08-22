@@ -27,7 +27,9 @@ const singlePage = () => {
                 <span>{userData.name}</span>
               </div>
             </div>
-            <div className="bottom"></div>
+            <div className="bottom">
+              {singlePropertyData.description}
+            </div>
           </div>
         </div>
       </div>
