@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 import location_icon from '../../assets/location_icon.svg'
 import bed_icon from '../../assets/bed_icon.svg'
 import bathroom_icon from '../../assets/bathroom_icon.svg'
-import save_icon from '../../assets/save_icon.svg'
+// import save_icon from '../../assets/save_icon.svg'
 import chat_icon from '../../assets/chat_icon.svg'
 import share_icon from '../../assets/share_icon.svg'
 
@@ -43,9 +43,9 @@ const PropertyCard = ({item}) => {
           </div>
 
           <div className="actions">
-            <div className="action">
+            {/* <div className="action">
               <img src={save_icon} alt="" />
-            </div>
+            </div> */}
             <div className="action">
               <img src={chat_icon} alt="" />
             </div>
