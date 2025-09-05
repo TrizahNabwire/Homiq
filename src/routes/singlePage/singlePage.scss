@@ -86,10 +86,23 @@
     }
     .features{
         flex: 2;
-        background-color: bisque;
+        background-color: #f0edf0;
 
         .wrapper{
             padding: 0px 20px;
+            display: flex;
+            flex-direction: column;
+            gap: 16px;
+
+            img{
+                width: 24px;
+                height: 24px;
+            }
+            .title{
+                font-size: 20px;
+                font-weight: 600;
+                margin-top: 16px;
+            }
         }
 
     }
