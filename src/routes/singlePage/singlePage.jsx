@@ -6,6 +6,9 @@ import location_icon from '../../assets/location_icon.svg'
 // import save_icon from '../../assets/save_icon.svg'
 import chat_icon from '../../assets/chat_icon.svg'
 import share_icon from '../../assets/share_icon.svg'
+import pet from '../../assets/pet.svg'
+import fee from '../../assets/fee.svg'
+import utility from '../../assets/utility.svg'
 
 const singlePage = () => {
   return (
@@ -40,21 +43,28 @@ const singlePage = () => {
         <div className="wrapper">
           <p className="title">General</p>
           <div className="listVertical">
-            <div className="feature">
-              <img src="" alt="" />
-              <div className="featureText">
-                <span>Utilities</span>
-                <p>Renter is responsible.</p>
+              <div className="feature">
+              <img src={utility} alt="" />
+                <div className="featureText">
+                  <span>Utilities</span>
+                  <p>Renter is responsible.</p>
+                </div>
               </div>
-              <div className="featureText">
-                <span>Pet Policy</span>
-                <p>Pets Allowed.</p>
+              <div className="feature">
+                <img src={pet} alt="" />
+                  <div className="featureText">
+                    <span>Pet Policy</span>
+                    <p>Pets Allowed.</p>
+                  </div>
               </div>
-              <div className="featureText">
-                <span>Property Fees</span>
-                <p>Must have 3x the rent in total household income is responsible.</p>
+              <div className="feature">
+                <img src={fee} alt="" />
+                  <div className="featureText">
+                    <span>Property Fees</span>
+                    <p>Must have 3x the rent in total household income is responsible.</p>
+                  </div>
               </div>
-            </div>
+          </div>
           </div>
           <p className="title">Sizes</p>
           <div className="size">
@@ -108,8 +118,8 @@ const singlePage = () => {
             </button>
           </div>
         </div>
-      </div>
-    </div>
+      // </div>
+    // </div>
   )
 }
 
