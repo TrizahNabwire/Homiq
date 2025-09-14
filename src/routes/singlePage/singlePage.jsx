@@ -9,6 +9,12 @@ import share_icon from '../../assets/share_icon.svg'
 import pet from '../../assets/pet.svg'
 import fee from '../../assets/fee.svg'
 import utility from '../../assets/utility.svg'
+import school from '../../assets/school.svg'
+import bus from '../../assets/bus.svg'
+import supermarket from '../../assets/supermarket.svg'
+import size from '../../assets/size.svg'
+import bed from '../../assets/bed.svg'
+import bathroom from '../../assets/bathroom.svg'
 
 const singlePage = () => {
   return (
@@ -65,48 +71,48 @@ const singlePage = () => {
                   </div>
               </div>
           </div>
-          </div>
+        
           <p className="title">Sizes</p>
+          <div className="sizes">
           <div className="size">
-            <img src="" alt="" />
+            <img src={size} alt="" />
             <span>80 sqft</span>
           </div>
           <div className="size">
-            <img src="" alt="" />
+            <img src={bed} alt="" />
             <span>2 beds</span>
           </div>
           <div className="size">
-            <img src="" alt="" />
+            <img src={bathroom} alt="" />
             <span>1 bathroom</span>
           </div>
-          <div className="sizes">
-
           </div>
+
           <p className="title">Nearby Places</p>
+          <div className="listHorizontal">
           <div className="feature">
-            <img src="" alt="" />
-            <div className="featuteText">
+            <img src={school} alt="" />
+            <div className="featureText">
               <span>School</span>
               <p>250m away</p>
             </div>
           </div>
           <div className="feature">
-            <img src="" alt="" />
-            <div className="featuteText">
+            <img src={bus} alt="" />
+            <div className="featureText">
               <span>Bus Stop</span>
               <p>100m away</p>
             </div>
           </div>
           <div className="feature">
-            <img src="" alt="" />
-            <div className="featuteText">
+            <img src={supermarket} alt="" />
+            <div className="featureText">
               <span>Supermarket</span>
               <p>200m away</p>
             </div>
           </div>
-          <div className="listHorizontal">
-
           </div>
+
           <div className="buttons">
             <button>
               <img src={chat_icon} alt="" />
@@ -117,9 +123,9 @@ const singlePage = () => {
               Share
             </button>
           </div>
-        </div>
-      // </div>
-    // </div>
+      </div>
+    </div>
+  </div>
   )
 }
 

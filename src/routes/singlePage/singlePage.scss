@@ -89,10 +89,11 @@
         background-color: #f0edf0;
 
         .wrapper{
-            padding: 0px 20px;
+            padding: 20px 20px;
             display: flex;
             flex-direction: column;
-            gap: 16px;
+            gap: 20px;
+            background-color: #e67e2220;
 
             img{
                 width: 24px;
@@ -107,12 +108,8 @@
                 display: flex;
                 align-items: center;
                 gap: 12px;
-                
 
                 img{
-                    // background-color: #e67e22;
-                    // padding: 8px;
-                    // border-radius: 8px;
                     width: 24px;
                     height: 24px;
                 }
@@ -133,6 +130,34 @@
                 padding: 20px 12px;
                 background-color: #f0edf0;
                 border-radius: 8px;
+            }
+            .listHorizontal{
+                display: flex;
+                justify-content: space-between;
+                padding: 20px 12px;
+                background-color: #f0edf0;
+                border-radius: 8px;
+                // overflow-x: auto;
+
+            }
+            .sizes{
+                display: flex;
+                justify-content: space-between;
+
+                .size{
+                    display: flex;
+                    align-items: center;
+                    gap: 12px;
+                    background-color: #f0edf0;
+                    padding: 12px;
+                    border-radius: 8px;
+
+                    span{
+                        font-size: 16px;
+                        font-weight: 600;
+                    }
+                   
+                }
             }
         }
 
