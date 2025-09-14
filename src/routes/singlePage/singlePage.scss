@@ -4,6 +4,8 @@
 
     .details{
         flex: 3;
+        height: 100%;
+        overflow-y: scroll;
 
         .wrapper{
             padding-right: 50px;
@@ -87,9 +89,11 @@
     .features{
         flex: 2;
         background-color: #f0edf0;
+        height: 100%;
+        overflow-y: scroll;
 
         .wrapper{
-            padding: 20px 20px;
+            padding: 20px 20px 60px 20px;
             display: flex;
             flex-direction: column;
             gap: 20px;
@@ -156,10 +160,50 @@
                         font-size: 16px;
                         font-weight: 600;
                     }
-                   
                 }
+            }
+
+            .buttons{
+                display: flex;
+                // justify-content: space-between;
+                gap: 24px;
+
+                .messageButton{
+                    padding: 16px 20px;
+                    display: flex;
+                    align-items: center;
+                    gap: 8px;
+                    background-color: #e67e22;
+                    color: #f0edf0;
+                    border: 1px solid #e67e22;
+                    border-radius: 8px;
+                    cursor: pointer;
+                    font-size: 16px;
+
+                    img{
+                        width: 20px;
+                        height: 20px;
+                    }
+                }
+                    .shareButton{
+                        background-color: #f0edf0;
+                        padding: 16px 20px;
+                        display: flex;
+                        align-items: center;
+                        gap: 8px;
+                        color: #e67e22;
+                        border: 1px solid #e67e22;
+                        border-radius: 8px;
+                        cursor: pointer;
+                        font-size: 16px;
+
+                        img{
+                            width: 20px;
+                            height: 20px;
+                    }
             }
         }
 
     }
+}
 }

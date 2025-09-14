@@ -5,7 +5,7 @@ import { singlePropertyData, userData } from '../../lib/listData'
 import location_icon from '../../assets/location_icon.svg'
 // import save_icon from '../../assets/save_icon.svg'
 import chat_icon from '../../assets/chat_icon.svg'
-import share_icon from '../../assets/share_icon.svg'
+import share from '../../assets/share.svg'
 import pet from '../../assets/pet.svg'
 import fee from '../../assets/fee.svg'
 import utility from '../../assets/utility.svg'
@@ -114,12 +114,12 @@ const singlePage = () => {
           </div>
 
           <div className="buttons">
-            <button>
+            <button className='messageButton'>
               <img src={chat_icon} alt="" />
               Send a Message
             </button>
-            <button>
-              <img src={share_icon} alt="" />
+            <button className='shareButton'>
+              <img src={share} alt="" />
               Share
             </button>
           </div>
