@@ -1,11 +1,39 @@
+@import "../../responsive.scss";
+
 .singlePage{
     display: flex;
     height: 100%;
+
+    @include md{
+        flex-direction: column;
+        overflow: scroll;
+    }
+    @include sm{
+        flex-direction: column;
+        overflow: scroll;
+    }
+    @include xs{
+        flex-direction: column;
+        overflow: scroll;
+    }
 
     .details{
         flex: 3;
         height: 100%;
         overflow-y: scroll;
+
+        @include md{
+            flex: none;
+            height: max-content;
+        }
+        @include sm{
+            flex: none;
+            height: max-content;
+        }
+        @include xs{
+            flex: none;
+            height: max-content;
+        }
 
         .wrapper{
             padding-right: 50px;
@@ -80,6 +108,7 @@
                     color: #f0edf0;
                     line-height: 20px;
                     font-size: 14px;
+                    margin-bottom: 32px;
 
                 }
             }
@@ -91,6 +120,19 @@
         background-color: #f0edf0;
         height: 100%;
         overflow-y: scroll;
+
+        @include md{
+            flex: none;
+            height: max-content;
+        }
+        @include sm{
+            flex: none;
+            height: max-content;
+        }
+        @include xs{
+            flex: none;
+            height: max-content;
+        }
 
         .wrapper{
             padding: 20px 20px 60px 20px;
@@ -147,6 +189,14 @@
             .sizes{
                 display: flex;
                 justify-content: space-between;
+
+                @include lg{
+                    font-size: 12px;
+                }
+                // @include xs{
+                //     flex-direction: column;
+                //     gap: 12px;
+                // }
 
                 .size{
                     display: flex;
