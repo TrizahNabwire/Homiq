@@ -17,11 +17,12 @@ const Navbar = () => {
                 <a href="">About Us</a>
                 <a href="/list">Houses</a>
                 <a href="">Our Agents</a>
-                <a href="">Contact Us</a>
+                {/* <a href="">Contact Us</a> */}
             </div>
             <div className="nav-right">
-                <button className='signin'>Sign In</button>
-                <button className='register'>Sign Up</button>
+                {/* <button className='signin'>Sign In</button>
+                <button className='register'>Sign Up</button> */}
+                <button className='contact'>Contact Us</button>
                 <div className="menu-icon">
                     {/* Toggle Menu Icon */}
                     <img src={isOpen ? close_icon: menu_icon} alt="Menu Icon" onClick={()=>setIsOpen((prev)=>!prev)}/>

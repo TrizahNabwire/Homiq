@@ -6,6 +6,9 @@ import bg from '../../assets/bg.jpg'
 const homePage = () => {
   return (
     <div className="homePage">
+      <div className="money">
+        We charge <span>Ksh 2000</span> to view 4 Houses Per Day
+      </div>
       <div className="textContainer">
         Find Your Next Home or Airbnb Investment - All in One Place
       </div>
@@ -16,12 +19,16 @@ const homePage = () => {
         <h2>Years of Experience</h2>
       </div>
       <div className="stat">
-        <h1>200</h1>
-        <h2>Awards Gained</h2>
+        <h1>12</h1>
+        <h2>Agents</h2>
+      </div>
+      <div className="stat">
+        <h1>200+</h1>
+        <h2>Happy Clients</h2>
       </div>
       <div className="stat">
         <h1>450+</h1>
-        <h2>Properties Ready</h2>
+        <h2>Vacant Properties</h2>
       </div>
       </div>
       <div className="imgContainer">
