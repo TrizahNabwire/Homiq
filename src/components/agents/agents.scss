@@ -1,3 +1,5 @@
+@import '../../responsive.scss';
+
 .section {
 //   padding: 3rem 1rem;
   padding: 60px 32px;  
@@ -17,6 +19,16 @@
   gap: 32px;
 //   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
 grid-template-columns: 1fr 1fr 1fr 1fr;
+
+@include md{
+    grid-template-columns: 1fr 1fr 1fr;
+}
+@include sm{
+    grid-template-columns: 1fr 1fr;
+}
+@include xs{
+    grid-template-columns: 1fr;
+}
 }
 
 .card {
@@ -26,16 +38,36 @@ grid-template-columns: 1fr 1fr 1fr 1fr;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
   overflow: hidden;
   transition: box-shadow 0.2s ease;
+
+  @include md{
+    height: 340px;
+  }
+    @include sm{
+        height: 320px;
+    }
+    @include xs{
+        height: 380px;
+    }
 }
 
 .card:hover {
-  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.15);
+  box-shadow: #e67e22 0px 0px 8px;
 }
 
 .image {
   width: 100%;
   height: 50%;
   object-fit: cover;
+
+  @include md{
+    height: 45%;
+  }
+    @include sm{
+        height: 40%;
+    }
+    @include xs{
+        height: 50%;
+    }
 }
 
 .content {
@@ -56,7 +88,7 @@ grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 
 .message-btn {
-  background-color: #e67e22; /* teal from your palette */
+  background-color: #e67e22;
   color: white;
   border: none;
   border-radius: 8px;
@@ -68,5 +100,6 @@ grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 
 .message-btn:hover {
-  background-color: #3aa995;
+    box-shadow: #e67e22 0px 0px 8px;
+    transform: scale(1.05);
 }
