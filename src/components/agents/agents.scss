@@ -12,6 +12,22 @@
   color: #f0edf0;
   margin-bottom: 60px;
   margin-top: 80px;
+
+  @include md{
+    font-size: 36px;
+    margin-bottom: 48px;
+    margin-top: 40px;
+  }
+    @include sm{
+        font-size: 30px;
+        margin-bottom: 38px;
+        margin-top: 24px;
+    }
+    @include xs{
+        font-size: 24px;
+        margin-bottom: 32px;
+        margin-top: 16px;
+    }
 }
 
 .grid {

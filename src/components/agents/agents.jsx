@@ -11,7 +11,7 @@ export default function Agents() {
     window.open(whatsappUrl, '_blank');
   }
   return (
-    <section className="section">
+    <section className="section" id="agents">
       <h2 className="title">Meet Our Agents</h2>
 
       <div className="grid">
