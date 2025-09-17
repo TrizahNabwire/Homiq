@@ -2,6 +2,7 @@ import React from 'react'
 import './homePage.scss'
 import SearchBar from '../../components/searchBar/searchBar'
 import bg from '../../assets/bg.jpg'
+import Agents from '../../components/agents/agents'
 
 const homePage = () => {
   return (
@@ -34,6 +35,7 @@ const homePage = () => {
       <div className="imgContainer">
           <img src={bg} alt="" />
       </div>
+      <Agents/>
     </div>
   )
 }
