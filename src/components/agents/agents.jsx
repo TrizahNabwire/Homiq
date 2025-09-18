@@ -6,7 +6,7 @@ import './agents.scss';
 
 export default function Agents() {
   const handleMessage = (agent) => {
-    const message = `Hello ${agent.name}, I am interested in your services. Please contact me.`;
+    const message = `Hello ${agent.name}, I am interested in your services.`;
     const whatsappUrl = `https://wa.me/${agent.phone}?text=${encodeURIComponent(message)}`;
     window.open(whatsappUrl, '_blank');
   }
