@@ -3,6 +3,7 @@ import './homePage.scss'
 import SearchBar from '../../components/searchBar/searchBar'
 import bg from '../../assets/bg.jpg'
 import Agents from '../../components/agents/agents'
+import About from '../../components/about/about'
 
 const homePage = () => {
   return (
@@ -36,6 +37,7 @@ const homePage = () => {
           <img src={bg} alt="" />
       </div>
       <Agents/>
+      <About/>
     </div>
   )
 }

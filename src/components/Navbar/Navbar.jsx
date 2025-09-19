@@ -16,7 +16,8 @@ const Navbar = () => {
             </div>
             <div className="nav-left">
                 <a href="/">Home</a>
-                <a href="">About Us</a>
+                {/* <a href="">About Us</a> */}
+                <HashLink smooth to="/#about">About Us</HashLink>
                 <a href="/list">Houses</a>
                 <HashLink smooth to="/#agents">Our Agents</HashLink>
             </div>
@@ -32,7 +33,7 @@ const Navbar = () => {
                 {/* Mobile Menu */}
                 <div className={`menu ${isOpen ? 'active' : ''}`}>
                 <a href="/">Home</a>
-                <a href="">About Us</a>
+                <HashLink smooth to="/#about">About Us</HashLink>
                 <a href="/list">Houses</a>
                 <HashLink smooth to="/#agents">Our Agents</HashLink>
                 <a href="">Contact Us</a>
