@@ -12,8 +12,8 @@ nav{
         justify-content: flex-start;
 
         img{
-            width: 100px;
-            height: 100px;
+            width: 150px;
+            height: 150px;
             border-radius: 50%;
         }
         @include xs {
@@ -61,31 +61,31 @@ nav{
         gap: 20px;
         color: #f0ead6;
     }
-    .signin{
-        transition: 0.3s;
-        cursor: pointer;
-        font-family: Century Gothic, sans-serif;
-        font-weight: 400;
-        font-size: 16px;
-        background: transparent;
-        border: none;
-        padding: 0;
-        margin: 0;
-        color: #f0ead6;
-        text-decoration: none;
+    // .signin{
+    //     transition: 0.3s;
+    //     cursor: pointer;
+    //     font-family: Century Gothic, sans-serif;
+    //     font-weight: 400;
+    //     font-size: 16px;
+    //     background: transparent;
+    //     border: none;
+    //     padding: 0;
+    //     margin: 0;
+    //     color: #f0ead6;
+    //     text-decoration: none;
 
-        &:hover{
-            text-decoration: underline;
-            transform: scale(1.05);
-        }
+    //     &:hover{
+    //         text-decoration: underline;
+    //         transform: scale(1.05);
+    //     }
 
-        @include xs {
-            display: none;
-        }
-        @include sm {
-            display: none;
-        }
-    }
+    //     @include xs {
+    //         display: none;
+    //     }
+    //     @include sm {
+    //         display: none;
+    //     }
+    // }
     .contact{
         background-color: #f0ead6;
         color: #701c1c;
@@ -97,6 +97,7 @@ nav{
         font-family: Century Gothic, sans-serif;
         font-weight: 600;
         font-size: 16px;
+        width: max-content;
 
         &:hover{
             box-shadow: #f0ead6 0px 0px 8px;

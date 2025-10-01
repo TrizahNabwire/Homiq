@@ -4,6 +4,7 @@ import SearchBar from '../../components/searchBar/searchBar'
 import bg from '../../assets/bg.jpg'
 import Agents from '../../components/agents/agents'
 import About from '../../components/about/about'
+import Contact from '../../components/Contact/contact'
 
 const homePage = () => {
   return (
@@ -38,6 +39,7 @@ const homePage = () => {
       </div>
       <About/>
       <Agents/>
+      <Contact/>
     </div>
   )
 }

@@ -16,15 +16,12 @@ const Navbar = () => {
             </div>
             <div className="nav-left">
                 <a href="/">Home</a>
-                {/* <a href="">About Us</a> */}
                 <HashLink smooth to="/#about">About Us</HashLink>
-                <a href="/list">Houses</a>
+                <HashLink smooth to="/list">Houses</HashLink>
                 <HashLink smooth to="/#agents">Our Agents</HashLink>
             </div>
             <div className="nav-right">
-                {/* <button className='signin'>Sign In</button>
-                <button className='register'>Sign Up</button> */}
-                <button className='contact'>Contact Us</button>
+                <HashLink smooth to="/#contact"><button className='contact'>Contact Us</button></HashLink>
                 <div className="menu-icon">
                     {/* Toggle Menu Icon */}
                     <img src={isOpen ? close_icon: menu_icon} alt="Menu Icon" onClick={()=>setIsOpen((prev)=>!prev)}/>
@@ -36,7 +33,7 @@ const Navbar = () => {
                 <HashLink smooth to="/#about">About Us</HashLink>
                 <a href="/list">Houses</a>
                 <HashLink smooth to="/#agents">Our Agents</HashLink>
-                <a href="">Contact Us</a>
+                <HashLink smooth to="/#contact">Contact Us</HashLink>
                 </div>
             </div>
         </nav>
