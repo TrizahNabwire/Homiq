@@ -36,8 +36,8 @@ const homePage = () => {
       <div className="imgContainer">
           <img src={bg} alt="" />
       </div>
-      <Agents/>
       <About/>
+      <Agents/>
     </div>
   )
 }
