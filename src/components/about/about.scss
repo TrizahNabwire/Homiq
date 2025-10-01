@@ -1,0 +1,19 @@
+.about{
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 42px;
+    gap: 100px;
+
+    .left{
+        font-size: 60px;
+        font-weight: 600;
+        color: #f0ead6;
+        width: 32%;
+    }
+    .right{
+        font-size: 20px;
+        color: #f0ead6;
+    }
+}
