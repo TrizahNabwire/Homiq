@@ -7,17 +7,49 @@
     justify-content: center;
     gap: 60px;
     padding: 80px 0px;
-    margin-top: 100px;
+    // margin-top: 100px;
     border: 2px solid #f0ead6;
     border-radius: 20px;
     margin: 74px 100px;
     box-shadow: #f0ead6 0px 0px 8px;
 
+    @include md{
+        margin: 42px 60px;
+        padding: 60px 20px;
+        gap: 42px;
+        flex-direction: column;
+    }
+    @include sm{
+        margin: 32px 50px;
+        padding: 60px 20px;
+        gap: 32px;
+        flex-direction: column;
+    }
+    @include xs{
+        margin: 24px 42px;
+        padding: 60px 20px;
+        gap: 24px;
+        flex-direction: column;
+    }
+
     .contact-title h1{
     font-size: 60px;
     font-weight: 700;
     color: #f0ead6;
+
+    @include md{
+        font-size: 42px;
+        font-weight: 600;
     }
+    @include sm{
+        font-size: 32px;
+        font-weight: 600;
+    }
+    @include xs{
+        font-size: 24px;
+        font-weight: 600;
+    }
+}
 
     .contact-section{
     display: flex;
@@ -25,6 +57,21 @@
     align-items: center;
     justify-content: center;
     margin-top: 40px;
+
+    @include md{
+        flex-direction: column;
+        gap: 42px;
+    }
+    @include sm{
+        flex-direction: column;
+        gap: 24px;
+        width: 420px;
+    }
+    @include xs{
+        flex-direction: column;
+        gap: 20px;
+        width: 320px;
+    }
 
     .contact-left{
     display: flex;
@@ -39,6 +86,17 @@
     font-size: 60px;
     font-weight: 600;
     color: #f0ead6;
+
+    @include md{
+        // font-size: 32px;
+        display: none;
+    }
+    @include sm{
+        display: none;
+    }
+    @include xs{
+        display: none;
+    }
     }
 
     .contact-left p{
@@ -81,6 +139,13 @@
     font-size: 20px;
     font-weight: 500;
     color: #f0ead6;
+
+    @include md{
+        font-size: 16px;
+    }
+    @include sm{
+        font-size: 12px;
+    }
     }
     .contact-right input{
     border: none;
@@ -90,6 +155,15 @@
     border-radius: 4px;
     font-family: Century Gothic, sans-serif;
     font-size: 14px;
+
+    @include sm{
+        width: 420px;
+        font-size: 10px;
+    }
+    @include xs{
+        width: 320px;
+        font-size: 8px;
+    }
     }
     .contact-right textarea{
     width: 600px;
@@ -99,8 +173,17 @@
     border-radius: 6px;
     font-family: Century Gothic, sans-serif;
     font-size: 14px;
+
+    @include sm{
+        width: 420px;
+        font-size: 10px;
+    }
+    @include xs{
+        width: 320px;
+        font-size: 8px;
+    }
 }
-.contact-submit{
+    .contact-submit{
         background-color: #f0ead6;
         color: #701c1c;
         padding: 12px 24px;
@@ -117,47 +200,5 @@
             box-shadow: #f0ead6 0px 0px 8px;
             transform: scale(1.05);
         }
-}
-@media(max-width:768px){
-    .contact{
-        gap: 42px;
-        margin: 42px 60px;
-        align-items: start;
-    }
-    .contact-title h1{
-        padding: 0;
-        font-size: 42px;
-        font-weight: 600;
-    }
-    .contact-section{
-        flex-direction: column;
-    }
-    .contact-left h1{
-        font-size: 32px;
-    }
-    .contact-left p{
-        font-size: 16px;
-    }
-    .contact-detail{
-        gap: 12px;
-    }
-    .contact-detail img{
-        width: 18px;
-    }
-    .contact-right label{
-        font-size: 16px;
-    }
-    .contact-right input{
-        width: 100%;
-        font-size: 12px;
-    }
-    .contact-right textarea{
-        width: 100%;
-        font-size: 12px;
-    }
-    .contact-submit{
-        font-size: 16px;
-        padding: 16px 24px;
-    }
 }
 }
