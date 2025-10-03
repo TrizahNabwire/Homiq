@@ -70,7 +70,7 @@
     @include xs{
         flex-direction: column;
         gap: 20px;
-        width: 320px;
+        width: 360px;
     }
 
     .contact-left{
@@ -134,6 +134,13 @@
     flex-direction: column;
     align-items: start;
     gap: 24px;
+
+    @include sm{
+        margin-top: 32px;
+    }
+    @include xs{
+        margin-top: 24px;
+    }
     }
     .contact-right label{
     font-size: 20px;
@@ -161,7 +168,7 @@
         font-size: 10px;
     }
     @include xs{
-        width: 320px;
+        width: 360px;
         font-size: 8px;
     }
     }
@@ -179,7 +186,7 @@
         font-size: 10px;
     }
     @include xs{
-        width: 320px;
+        width: 360px;
         font-size: 8px;
     }
 }

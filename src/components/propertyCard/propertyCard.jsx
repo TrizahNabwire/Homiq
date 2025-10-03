@@ -1,11 +1,11 @@
 import React from 'react'
 import './propertyCard.scss'
 import { Link } from 'react-router-dom'
-import location_icon from '../../assets/location_icon.svg'
+// import location_icon1 from '../../assets/location_icon1.svg'
 import bed_icon from '../../assets/bed_icon.svg'
 import bathroom_icon from '../../assets/bathroom_icon.svg'
 // import save_icon from '../../assets/save_icon.svg'
-import chat_icon from '../../assets/chat_icon.svg'
+import chat_icon1 from '../../assets/chat_icon1.svg'
 import share_icon from '../../assets/share_icon.svg'
 
 const PropertyCard = ({item}) => {
@@ -17,7 +17,7 @@ const PropertyCard = ({item}) => {
       <div className="textContainer">
         <h3 className="location">
           <Link to={`/${item.id}`}>
-          <img src={location_icon} alt="" />
+          {/* <img src={location_icon1} alt="" /> */}
           <span>{item.location}</span>
           </Link>
         </h3>
@@ -47,7 +47,7 @@ const PropertyCard = ({item}) => {
               <img src={save_icon} alt="" />
             </div> */}
             <div className="action">
-              <img src={chat_icon} alt="" />
+              <img src={chat_icon1} alt="" />
             </div>
             <div className="action">
               <img src={share_icon} alt="" />
